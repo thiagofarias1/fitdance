@@ -209,3 +209,12 @@ p{
 	}
 
 }
+
+@media screen and (max-width: 767px){
+	.inicio{
+		width: 1271px;
+		height: 725px;
+		background-image: url(fundo.png);
+		background-size: 1272px, 400px;
+	}
+}

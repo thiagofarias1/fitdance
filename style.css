@@ -161,3 +161,54 @@ p{
 	width: 560px;
 	margin: 2em auto;
 }
+
+@media screen and (max-width: 425px){
+	nav {
+		position: absolute;
+		top: 20px;
+		right: 30px;
+	}
+
+	.inicio{
+		width: 1271px;
+		height: 725px;
+		background-image: url(fundo.png);
+		background-size: 1272px, 400px;
+	}
+
+	.chamada-assinatura h1{
+		font-size: 15px;
+		position: absolute;
+		left: 2%;
+		bottom: 372px;
+		color: white;
+		float: left;
+	}
+
+	.chamada-assinatura p{
+		position: absolute;
+		left: 2%;
+		bottom: 372px;
+		color: white;
+		float: left;
+	}
+	.plano-anual{
+		position: absolute;
+		left: 50%;
+		bottom: 372px;
+		color: white;
+
+	}
+	.plano-semestral{
+		position: absolute;
+		left: 434px;
+		right: -203px;
+		bottom: 372px;
+		color: white;
+		float: right;
+	}
+
+	.niveis{
+		background-image: url(niveis-moveis.png);
+	}
+}

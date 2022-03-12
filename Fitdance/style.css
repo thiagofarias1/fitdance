@@ -1,0 +1,164 @@
+body {
+	background: #f8f8f8;
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	width: 100%;
+	height: 45px;
+	position: fixed;
+	background: white;
+	padding: 10px 0;
+	box-shadow: 10px 10px 10px 0 #d6d1d1;
+}
+
+.logo{
+	position: absolute;
+	left: 10px;
+	top: 0px;
+	width: 80px;
+	display:inline;
+}
+
+.caixa {
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 20px;
+	right: 600px;
+}
+nav li {
+	text-transform: uppercase;
+	display: inline;
+	margin: 0 0 0 50px;
+}
+nav a {
+	font-family: 'Roboto' ;
+	color: #000000;
+	font-weight:600;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.area_instrutor{
+	box-sizing: border-box;
+	border: 1px solid #000000;
+	border-radius: 20px;
+	padding: 10px 25px;
+
+}
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+	
+}
+
+.inicio{
+	width: 100%;
+	height: 1000px;
+	background-image: url("fundo.png");
+	vertical-align: bottom;
+}
+
+.chamada-assinatura{
+	position:absolute;
+	left: 10%;
+	bottom: -100px;
+	color: white;
+	float: left;
+	
+}
+
+.plano-anual{
+	position:absolute;
+	left: 50%;
+	bottom: -50px;
+	color: white;
+	float: center;
+}
+
+.plano-semestral{
+	position:absolute;
+	left: 75%;
+	bottom: -50px;
+	color: white;
+	float: right;
+}
+
+.garantia{
+	font-weight: bold;
+	border: 1px solid #000000;
+	border-radius: 20px;
+	padding: 10px 10px;
+	box-shadow: 10px 10px 10px 0 #000000;
+	background:linear-gradient(to right, #ff7f4f, #f51892);
+}
+
+
+
+h1{
+	font-weight: bold;
+	font-size: 35px;
+	text-align: center;
+	margin: 0 1.5%;
+	padding: 40px 0 10px 0;
+}
+p{
+	font-size: 20px;
+	text-align: center;
+	margin: 0 1.5%;
+	padding: 10px 0 40px 0;
+}
+
+.niveis{
+	position: relative;
+	left: 20%;
+	padding-bottom: 3%;
+}
+.p-niveis{
+	padding: 0 auto;
+}
+
+
+.colecao_estilos{
+	padding-left: 7%;
+	padding-right: 3%;
+	background-color: rgb(8, 8, 48);
+
+}
+
+.colecao_estilos p{
+	font-size: 15px;
+
+}
+.estilos{
+	box-sizing: border-box;
+	border: 1px solid #000000;
+	border-radius: 20px;
+	margin: 7px;
+}
+
+.colecao_estilos h1{
+	font-weight: bold;
+	font-size: 35px;
+	text-align: center;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	color: white;
+}
+.colecao_estilos p{
+	font-size: 20px;
+	text-align: center;
+	margin: 0 1.5%;
+	padding: 0 30% 0 30%;
+	color: white;
+}
+
+.video {
+	width: 560px;
+	margin: 2em auto;
+}
+

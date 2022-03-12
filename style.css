@@ -213,8 +213,34 @@ p{
 @media screen and (max-width: 767px){
 	.inicio{
 	    width: 1349px;
-	    height: 900px;
+	    height: 732px;
 	    background-image: url(fundo.png);
-	    background-size: 1567px, 400px;
+	    background-size: 1349px, 400px;
 	}
+	.chamada-assinatura {
+	    position: absolute;
+	    left: 10%;
+	    bottom: 30px;
+	    color: white;
+	    float: left;
+	}
+	
+	.plano-anual {
+	    position: absolute;
+	    left: 708px;
+	    right: -232px;
+	    bottom: 59px;
+	    color: white;
+	    float: center;
+}
+	.plano-semestral {
+	    position: absolute;
+	    top: 481px;
+	    left: 1026px;
+	    right: -536px;
+	    bottom: 58px;
+	    color: white;
+}
+	
+	
 }

@@ -210,7 +210,7 @@ p{
 
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 768px){
 	.inicio{
 	    width: 1349px;
 	    height: 732px;
@@ -242,5 +242,21 @@ p{
 	    color: white;
 }
 	
+	.colecao_estilos {
+	    padding-left: 19%;
+	    padding-right: 0%;
+	    width: 1204px;
+	    background-size: 517px;
+	    background-color: rgb(8, 8, 48);
+}
+	.niveis {
+	    position: relative;
+	    left: 10%;
+	    padding-bottom: 3%;
+}
+	.video {
+	    width: 0px;
+	    margin: 2em auto;
+}
 	
 }

@@ -171,9 +171,9 @@ p{
 
 	.inicio{
 		width: 1271px;
-		height: 725px;
-		background-image: url(fundo.png);
-		background-size: 1272px, 400px;
+    		height: 725px;
+    		background-image: url(fundo.png);
+    		background-size: 1272px, 400px;
 	}
 
 	.chamada-assinatura h1{
